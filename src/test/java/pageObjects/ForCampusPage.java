@@ -18,9 +18,8 @@ public class ForCampusPage extends BasePage{
 		searchBar.sendKeys(course);
 	}
 	
+	public void sample() {
+		System.out.println("Sample");
+	}
 	
-	/*This is a 
-	 Multiline comment
-	 And this I would push on Github
-	 */
 }
