@@ -63,6 +63,12 @@
 			<artifactId>log4j-core</artifactId>
 			<version>2.25.2</version>
 		</dependency>
+		<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
+</dependency>
+
 		<!--
 		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
 		<dependency>
@@ -105,6 +111,19 @@
 			<scope>compile</scope>
 		</dependency> <!-- To avoid errors in
 		the console caused by this missing dependency in other log4j library-->
+		<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>2.0.9</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j2-impl</artifactId>
+    <version>2.20.0</version>
+</dependency>
+
 	</dependencies>
 
+	
 </project>
