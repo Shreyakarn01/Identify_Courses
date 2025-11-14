@@ -37,16 +37,16 @@ public class ForCampusPage extends BasePage {
     // Step 7: Fill and submit form with invalid data
     public void submitReadyToTransformForm(String name, String email, String institution, String phone) {
         nameInput.clear();      
-        nameInput.sendKeys("Nishtha");
+        nameInput.sendKeys(name);
        
         emailInput.clear();     
-        emailInput.sendKeys("abc@xyz.com");
+        emailInput.sendKeys(email);
         
         institutionInput.clear();
-        institutionInput.sendKeys("xyz");
+        institutionInput.sendKeys(institution);
        
         phoneInput.clear();     
-        phoneInput.sendKeys("1234567890");
+        phoneInput.sendKeys(phone);
         
         submitButton.click();
 
