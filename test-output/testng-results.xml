@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-16T17:19:10 IST" name="Suite" finished-at="2025-11-16T17:20:06 IST" duration-ms="56762">
+  <suite started-at="2025-11-16T23:20:59 IST" name="Suite" finished-at="2025-11-16T23:22:05 IST" duration-ms="65307">
     <groups>
     </groups>
-    <test started-at="2025-11-16T17:19:10 IST" name="Test" finished-at="2025-11-16T17:20:06 IST" duration-ms="56762">
+    <test started-at="2025-11-16T23:20:59 IST" name="Test" finished-at="2025-11-16T23:22:05 IST" duration-ms="65307">
       <class name="testCases.TC001_HomePageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:10 IST" name="setUp" finished-at="2025-11-16T17:19:17 IST" duration-ms="6759" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T23:21:00 IST" name="setUp" finished-at="2025-11-16T23:21:05 IST" duration-ms="5326" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testIdentifyCourses()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:17 IST" name="testIdentifyCourses" finished-at="2025-11-16T17:19:25 IST" duration-ms="8889" status="PASS">
+        <test-method signature="testIdentifyCourses()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T23:21:05 IST" name="testIdentifyCourses" finished-at="2025-11-16T23:21:16 IST" duration-ms="10888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIdentifyCourses -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:25 IST" name="tearDown" finished-at="2025-11-16T17:19:29 IST" duration-ms="3581" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T23:21:16 IST" name="tearDown" finished-at="2025-11-16T23:21:19 IST" duration-ms="3673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:29 IST" name="setUp" finished-at="2025-11-16T17:19:33 IST" duration-ms="4417" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T23:21:19 IST" name="setUp" finished-at="2025-11-16T23:21:24 IST" duration-ms="4847" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,72 +47,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLanguageLearningDropdown()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:33 IST" name="testLanguageLearningDropdown" finished-at="2025-11-16T17:19:41 IST" duration-ms="7298" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Test failed due to exception: stale element reference: stale element not found
-  (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [8d08210de0bb377ae38c2f5080da7bb3, sendKeysToElement {value=[Ljava.lang.CharSequence;@2418ba04, id=f.AC7A456BBA01E6B1416A468FFCDA2BA3.d.5720A86FE4F1123F9A779DB3BE1F1B7A.e.32}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[RemoteWebDriver: chrome on Windows 11 (8d08210de0bb377ae38c2f5080da7bb3)] -> id: search-autocomplete-input]
-Session ID: 8d08210de0bb377ae38c2f5080da7bb3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test failed due to exception: stale element reference: stale element not found
-  (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [8d08210de0bb377ae38c2f5080da7bb3, sendKeysToElement {value=[Ljava.lang.CharSequence;@2418ba04, id=f.AC7A456BBA01E6B1416A468FFCDA2BA3.d.5720A86FE4F1123F9A779DB3BE1F1B7A.e.32}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[RemoteWebDriver: chrome on Windows 11 (8d08210de0bb377ae38c2f5080da7bb3)] -> id: search-autocomplete-input]
-Session ID: 8d08210de0bb377ae38c2f5080da7bb3
-at org.testng.Assert.fail(Assert.java:111)
-at testCases.TC001_HomePageTest.testLanguageLearningDropdown(TC001_HomePageTest.java:86)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="testLanguageLearningDropdown()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T23:21:24 IST" name="testLanguageLearningDropdown" finished-at="2025-11-16T23:21:35 IST" duration-ms="10904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLanguageLearningDropdown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:41 IST" name="tearDown" finished-at="2025-11-16T17:19:45 IST" duration-ms="3419" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T23:21:35 IST" name="tearDown" finished-at="2025-11-16T23:21:39 IST" duration-ms="3758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_HomePageTest -->
       <class name="testCases.TC002_ForCampusPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_ForCampusPageTest@7216fb24]" started-at="2025-11-16T17:19:45 IST" name="setUp" finished-at="2025-11-16T17:19:49 IST" duration-ms="4316" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_ForCampusPageTest@7216fb24]" started-at="2025-11-16T23:21:39 IST" name="setUp" finished-at="2025-11-16T23:21:45 IST" duration-ms="5601" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,11 +73,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFormValidation()[pri:0, instance:testCases.TC002_ForCampusPageTest@7216fb24]" started-at="2025-11-16T17:19:49 IST" name="testFormValidation" finished-at="2025-11-16T17:20:03 IST" duration-ms="14110" status="PASS">
+        <test-method signature="testFormValidation()[pri:0, instance:testCases.TC002_ForCampusPageTest@7216fb24]" started-at="2025-11-16T23:21:45 IST" name="testFormValidation" finished-at="2025-11-16T23:22:00 IST" duration-ms="15537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_ForCampusPageTest@7216fb24]" started-at="2025-11-16T17:20:03 IST" name="tearDown" finished-at="2025-11-16T17:20:06 IST" duration-ms="3354" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_ForCampusPageTest@7216fb24]" started-at="2025-11-16T23:22:00 IST" name="tearDown" finished-at="2025-11-16T23:22:05 IST" duration-ms="4544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
