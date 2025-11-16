@@ -4,30 +4,6 @@
   <artifactId>Identify_Courses</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  
-  <build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-				</plugin>
-
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.5.4</version>
-					<configuration>
-						<suiteXmlFiles>
-							<suiteXmlFile>master.xml</suiteXmlFile> <!-- You can use more than one <suiteXmlFile> to add more xml files if you want to run but not recommended -->
-						</suiteXmlFiles>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
-	</build>
-
-    <!-- before dependencies we should add <build> tag-->
 
 	<dependencies>
 		<!--

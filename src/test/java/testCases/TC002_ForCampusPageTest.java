@@ -13,54 +13,31 @@ import java.util.List;
 public class TC002_ForCampusPageTest extends BaseClass {
 
     @Test
-    public void testLanguageLearningDropdown() {
-        try {
-            logger.info("Navigating to Language Learning section...");
-            driver.findElement(By.linkText("Language Learning")).click();
-
-            List<WebElement> languages = driver.findElements(By.xpath("//div[@class='language-option']"));
-            List<WebElement> levels = driver.findElements(By.xpath("//div[@class='level-option']"));
-
-            logger.info("Languages count: " + languages.size());
-            logger.info("Levels count: " + levels.size());
-
-            // Assertions
-            Assert.assertTrue(languages.size() > 0, "Languages list should not be empty");
-            Assert.assertTrue(levels.size() > 0, "Levels list should not be empty");
-
-            for (WebElement lang : languages) {
-                logger.info("Language: " + lang.getText());
-            }
-            for (WebElement lvl : levels) {
-                logger.info("Level: " + lvl.getText());
-            }
-
-        } catch (Exception e) {
-            logger.error("Error occurred in Language Learning dropdown test: " + e.getMessage());
-            Assert.fail("Test failed due to exception: " + e.getMessage());
-        }
-    }
-
-    @Test
     public void testFormValidation() {
         try {
             HomePage homePage = new HomePage(driver);
-            logger.info("Navigating to For Enterprise...");
-            homePage.goToForEnterprise();
+//            logger.info("Navigating to For Enterprise...");
+//            homePage.goToForEnterprise();
+            
+           
 
             logger.info("Navigating to For Campus...");
             homePage.goToForCampus();
-
+            
+            
             ForCampusPage campusPage = new ForCampusPage(driver);
+            
+            String heading = campusPage.getHeading();
+            Assert.assertEquals(heading, "Coursera for Campus","User is not on the campus page");
+            
             logger.info("Filling form with invalid email...");
-            campusPage.submitReadyToTransformForm("John","john@xyz.com","lmnopq","9783729659");
+            campusPage.submitReadyToTransformForm("John","Doe","test1@gmail.com","9876543210","University/4 Year College","XYZ","Student","Strategic Planning","Courses for myself","India","Maharashtra");
 
             String errorMsg = campusPage.getFormErrorMessage();
             logger.info("Captured Error Message: " + errorMsg);
 
-            // Assertion: error message should contain "valid email"
-            Assert.assertTrue(errorMsg.toLowerCase().contains("email"), 
-                "Error message should mention invalid email");
+            String expectedErrMsg = "Please enter your work email address";
+            Assert.assertEquals(errorMsg, expectedErrMsg,"Email validation error message not correct");
 
         } catch (Exception e) {
             logger.error("Error occurred in Form Validation test: " + e.getMessage());

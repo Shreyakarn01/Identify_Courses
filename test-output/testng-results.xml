@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-14T15:39:59 IST" name="Suite" finished-at="2025-11-14T15:40:44 IST" duration-ms="45491">
+  <suite started-at="2025-11-16T17:19:10 IST" name="Suite" finished-at="2025-11-16T17:20:06 IST" duration-ms="56762">
     <groups>
     </groups>
-    <test started-at="2025-11-14T15:39:59 IST" name="Test" finished-at="2025-11-14T15:40:44 IST" duration-ms="45491">
+    <test started-at="2025-11-16T17:19:10 IST" name="Test" finished-at="2025-11-16T17:20:06 IST" duration-ms="56762">
       <class name="testCases.TC001_HomePageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePageTest@25a6944c]" started-at="2025-11-14T15:39:59 IST" name="setUp" finished-at="2025-11-14T15:40:05 IST" duration-ms="6707" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:10 IST" name="setUp" finished-at="2025-11-16T17:19:17 IST" duration-ms="6759" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,70 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testIdentifyCourses()[pri:0, instance:testCases.TC001_HomePageTest@25a6944c]" started-at="2025-11-14T15:40:05 IST" name="testIdentifyCourses" finished-at="2025-11-14T15:40:07 IST" duration-ms="1550" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Test failed due to exception: element not interactable: element has zero size
-  (Session info: chrome=141.0.7390.108)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [58ed3f85da231683872c01e7ab6e81dc, clickElement {id=f.10FDC0D063E8CDB52D240E015390F557.d.BCCB4A00600D8E9EDAE9AE7663441AC3.e.60}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445185\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49200/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (58ed3f85da231683872c01e7ab6e81dc)] -> xpath: //button[contains(@class,'search-button')]]
-Session ID: 58ed3f85da231683872c01e7ab6e81dc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test failed due to exception: element not interactable: element has zero size
-  (Session info: chrome=141.0.7390.108)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [58ed3f85da231683872c01e7ab6e81dc, clickElement {id=f.10FDC0D063E8CDB52D240E015390F557.d.BCCB4A00600D8E9EDAE9AE7663441AC3.e.60}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445185\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49200}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49200/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (58ed3f85da231683872c01e7ab6e81dc)] -> xpath: //button[contains(@class,'search-button')]]
-Session ID: 58ed3f85da231683872c01e7ab6e81dc
-at org.testng.Assert.fail(Assert.java:111)
-at testCases.TC001_HomePageTest.testIdentifyCourses(TC001_HomePageTest.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="testIdentifyCourses()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:17 IST" name="testIdentifyCourses" finished-at="2025-11-16T17:19:25 IST" duration-ms="8889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIdentifyCourses -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePageTest@25a6944c]" started-at="2025-11-14T15:40:07 IST" name="tearDown" finished-at="2025-11-14T15:40:09 IST" duration-ms="2124" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:25 IST" name="tearDown" finished-at="2025-11-16T17:19:29 IST" duration-ms="3581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_HomePageTest -->
-      <class name="testCases.TC002_ForCampusPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_ForCampusPageTest@71cf1b07]" started-at="2025-11-14T15:40:09 IST" name="setUp" finished-at="2025-11-14T15:40:14 IST" duration-ms="5365" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:29 IST" name="setUp" finished-at="2025-11-16T17:19:33 IST" duration-ms="4417" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,88 +47,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFormValidation()[pri:0, instance:testCases.TC002_ForCampusPageTest@71cf1b07]" started-at="2025-11-14T15:40:14 IST" name="testFormValidation" finished-at="2025-11-14T15:40:31 IST" duration-ms="16526" status="FAIL">
+        <test-method signature="testLanguageLearningDropdown()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:33 IST" name="testLanguageLearningDropdown" finished-at="2025-11-16T17:19:41 IST" duration-ms="7298" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Test failed due to exception: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+              <![CDATA[Test failed due to exception: stale element reference: stale element not found
   (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
 Build info: version: '4.36.0', revision: '6d115cfd87'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f98e013cff9bad2972275d2e3bbda5b1, findElement {using=id, value=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445185\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52267/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f98e013cff9bad2972275d2e3bbda5b1]]>
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8d08210de0bb377ae38c2f5080da7bb3, sendKeysToElement {value=[Ljava.lang.CharSequence;@2418ba04, id=f.AC7A456BBA01E6B1416A468FFCDA2BA3.d.5720A86FE4F1123F9A779DB3BE1F1B7A.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (8d08210de0bb377ae38c2f5080da7bb3)] -> id: search-autocomplete-input]
+Session ID: 8d08210de0bb377ae38c2f5080da7bb3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test failed due to exception: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+              <![CDATA[java.lang.AssertionError: Test failed due to exception: stale element reference: stale element not found
   (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
 Build info: version: '4.36.0', revision: '6d115cfd87'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f98e013cff9bad2972275d2e3bbda5b1, findElement {using=id, value=name}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445185\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52267/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f98e013cff9bad2972275d2e3bbda5b1
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8d08210de0bb377ae38c2f5080da7bb3, sendKeysToElement {value=[Ljava.lang.CharSequence;@2418ba04, id=f.AC7A456BBA01E6B1416A468FFCDA2BA3.d.5720A86FE4F1123F9A779DB3BE1F1B7A.e.32}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57867}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://localhost:4444/session..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on Windows 11 (8d08210de0bb377ae38c2f5080da7bb3)] -> id: search-autocomplete-input]
+Session ID: 8d08210de0bb377ae38c2f5080da7bb3
 at org.testng.Assert.fail(Assert.java:111)
-at testCases.TC002_ForCampusPageTest.testFormValidation(TC002_ForCampusPageTest.java:67)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFormValidation -->
-        <test-method signature="testLanguageLearningDropdown()[pri:0, instance:testCases.TC002_ForCampusPageTest@71cf1b07]" started-at="2025-11-14T15:40:31 IST" name="testLanguageLearningDropdown" finished-at="2025-11-14T15:40:41 IST" duration-ms="10151" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Test failed due to exception: no such element: Unable to locate element: {"method":"link text","selector":"Language Learning"}
-  (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f98e013cff9bad2972275d2e3bbda5b1, findElement {using=link text, value=Language Learning}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445185\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52267/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f98e013cff9bad2972275d2e3bbda5b1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Test failed due to exception: no such element: Unable to locate element: {"method":"link text","selector":"Language Learning"}
-  (Session info: chrome=141.0.7390.108)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f98e013cff9bad2972275d2e3bbda5b1, findElement {using=link text, value=Language Learning}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445185\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52267/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f98e013cff9bad2972275d2e3bbda5b1
-at org.testng.Assert.fail(Assert.java:111)
-at testCases.TC002_ForCampusPageTest.testLanguageLearningDropdown(TC002_ForCampusPageTest.java:40)
+at testCases.TC001_HomePageTest.testLanguageLearningDropdown(TC001_HomePageTest.java:86)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -216,7 +106,33 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLanguageLearningDropdown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_ForCampusPageTest@71cf1b07]" started-at="2025-11-14T15:40:41 IST" name="tearDown" finished-at="2025-11-14T15:40:44 IST" duration-ms="2990" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePageTest@373ebf74]" started-at="2025-11-16T17:19:41 IST" name="tearDown" finished-at="2025-11-16T17:19:45 IST" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_HomePageTest -->
+      <class name="testCases.TC002_ForCampusPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_ForCampusPageTest@7216fb24]" started-at="2025-11-16T17:19:45 IST" name="setUp" finished-at="2025-11-16T17:19:49 IST" duration-ms="4316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormValidation()[pri:0, instance:testCases.TC002_ForCampusPageTest@7216fb24]" started-at="2025-11-16T17:19:49 IST" name="testFormValidation" finished-at="2025-11-16T17:20:03 IST" duration-ms="14110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_ForCampusPageTest@7216fb24]" started-at="2025-11-16T17:20:03 IST" name="tearDown" finished-at="2025-11-16T17:20:06 IST" duration-ms="3354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

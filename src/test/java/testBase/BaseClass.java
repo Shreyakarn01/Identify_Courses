@@ -1,14 +1,20 @@
 package testBase;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -16,7 +22,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -30,7 +38,7 @@ public class BaseClass {
 	public Logger logger; //import the package -->  import org.apache.logging.log4j.Logger;
 	
 	
-	@BeforeClass
+	@BeforeMethod
 	@Parameters({"os","browser"}) //if we are getting parameters from the xml file, then the execution depends on the xml file, so we have to now run code from xml file only, we cannot run from here directly
 	public void setUp(String os, String br) throws IOException {
 		//Loading config.properties file
@@ -96,8 +104,20 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 	
-	@AfterClass
+	@AfterMethod
 	public void tearDown() {
 		driver.quit();
+	}
+	
+	public String captureScreen(String tName) throws IOException {
+		String timestamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		
+		TakesScreenshot screenshot = (TakesScreenshot) driver;
+		File src = screenshot.getScreenshotAs(OutputType.FILE);
+		String targetFilePath = System.getProperty("user.dir")+"\\screenshots\\"+tName+"_"+timestamp+".png";
+		File dest = new File(targetFilePath);
+		
+		FileUtils.copyFile(src,dest); // or, src.renameTo(dest);
+		return targetFilePath;
 	}
 }
