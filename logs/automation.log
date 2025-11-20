@@ -1,151 +1,643 @@
-2025-11-16 23:20:59 INFO  Utils:112 - [TestNG] Running:
+2025-11-20 14:11:45 INFO  Utils:112 - [TestNG] Running:
   C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
 
-2025-11-16 23:21:05 INFO  TC001_HomePageTest:19 - Searching for Web Development courses...
-2025-11-16 23:21:12 INFO  TC001_HomePageTest:22 - Applying Beginner level filter...
-2025-11-16 23:21:13 INFO  TC001_HomePageTest:25 - Applying English language filter...
-2025-11-16 23:21:16 INFO  TC001_HomePageTest:35 - Course 1
-2025-11-16 23:21:16 INFO  TC001_HomePageTest:36 - Name: Introduction to HTML, CSS, & JavaScript
-2025-11-16 23:21:16 INFO  TC001_HomePageTest:37 - Rating: 4.4
-2025-11-16 23:21:16 INFO  TC001_HomePageTest:38 - Duration: Beginner · Course · 1 - 4 Weeks
-2025-11-16 23:21:16 INFO  TC001_HomePageTest:35 - Course 2
-2025-11-16 23:21:16 INFO  TC001_HomePageTest:36 - Name: Introduction to Front-End Development
-2025-11-16 23:21:16 INFO  TC001_HomePageTest:37 - Rating: 4.8
-2025-11-16 23:21:16 INFO  TC001_HomePageTest:38 - Duration: Beginner · Course · 1 - 4 Weeks
-2025-11-16 23:21:31 INFO  TC001_HomePageTest:62 - Levels count: 4
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:64 - Level: Beginner
-(4,939)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:64 - Level: Intermediate
-(3,164)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:64 - Level: Advanced
-(333)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:64 - Level: Mixed
-(851)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:71 - Languages count: 62
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:73 - Language: English
-(8,152)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:73 - Language: Spanish
-(4,433)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:73 - Language: French
-(2,927)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:73 - Language: Portuguese
-(2,907)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:73 - Language: Arabic
+2025-11-20 14:11:47 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 14:11:47 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 14:11:56 INFO  TC001_HomePageTest:22 - Searching for Web Development courses...
+2025-11-20 14:12:00 INFO  TC001_HomePageTest:25 - Applying Beginner level filter...
+2025-11-20 14:12:02 INFO  TC001_HomePageTest:28 - Applying English language filter...
+2025-11-20 14:12:03 ERROR TC001_HomePageTest:51 - Error occurred in TC001_IdentifyCourses: element click intercepted: Element <input class="cds-312" id="cds-react-aria7866233093-:r1r:" type="checkbox" data-indeterminate="false" aria-labelledby="cds-react-aria7866233093-:r1r:-label-text" value=""> is not clickable at point (605, 368). Other element would receive the click: <div class="cds-225 cds-171 cds-popoverDropdown-paper cds-228 cds-226" tabindex="-1" style="opacity: 1; transform: none; transition: opacity cubic-bezier(0.4, 0, 0.2, 1), transform cubic-bezier(0.4, 0, 0.2, 1); top: 217px; left: 604px; transform-origin: 0px 0px;">...</div>
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f0ed0180ba5d913cc753939d67d592f7, clickElement {id=f.E97C4906C559ED690A192D75398ED805.d.E99EA122AECA8F74BC3F9365DFFB38EC.e.121}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58042}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58042/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f0ed0180ba5d913cc753939d67d592f7)] -> xpath: (//input[contains(@class,'cds')])[2]]
+Session ID: f0ed0180ba5d913cc753939d67d592f7
+2025-11-20 14:12:08 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 14:12:08 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 14:12:18 INFO  TC001_HomePageTest:66 - Levels count: 4
+2025-11-20 14:12:18 INFO  TC001_HomePageTest:68 - Level: Beginner
+(4,950)
+2025-11-20 14:12:18 INFO  TC001_HomePageTest:68 - Level: Intermediate
+(3,180)
+2025-11-20 14:12:18 INFO  TC001_HomePageTest:68 - Level: Advanced
+(334)
+2025-11-20 14:12:18 INFO  TC001_HomePageTest:68 - Level: Mixed
+(847)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:77 - Languages count: 62
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: English
+(8,174)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Spanish
+(4,434)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: French
+(2,928)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Portuguese
+(2,906)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Arabic
 (2,775)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:73 - Language: German
-(2,728)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:73 - Language: Indonesian
-(2,653)
-2025-11-16 23:21:32 INFO  TC001_HomePageTest:73 - Language: Chinese
-(2,632)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Russian
-(2,541)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Japanese
-(2,486)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Hindi
-(2,435)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Korean
-(2,426)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Turkish
-(2,359)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Italian
-(2,354)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Thai
-(2,345)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Ukrainian
-(2,334)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Greek
-(2,325)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Polish
-(2,303)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Dutch
-(2,298)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Swedish
-(2,273)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Kazakh
-(2,193)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Vietnamese
-(1,826)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Pushto
-(1,442)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Hungarian
-(1,440)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Azerbaijani
-(1,350)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Urdu
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: German
+(2,727)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Indonesian
+(2,651)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Chinese
+(2,626)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Russian
+(2,537)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Japanese
+(2,489)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Hindi
+(2,430)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Korean
+(2,427)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Turkish
+(2,357)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Italian
+(2,349)
+2025-11-20 14:12:19 INFO  TC001_HomePageTest:79 - Language: Thai
+(2,342)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Ukrainian
+(2,331)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Greek
+(2,321)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Polish
+(2,299)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Dutch
+(2,294)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Swedish
+(2,269)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Kazakh
+(2,187)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Vietnamese
+(1,824)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Hungarian
+(1,439)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Pushto
+(1,439)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Azerbaijani
 (1,347)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Bengali
-(1,346)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Uzbek
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Urdu
+(1,344)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Bengali
+(1,343)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Uzbek
 (876)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Oriya
-(262)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Persian
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Oriya
+(261)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Persian
 (40)
-2025-11-16 23:21:33 INFO  TC001_HomePageTest:73 - Language: Romanian
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Romanian
 (37)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Hebrew
-(21)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Javanese
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Hebrew
+(20)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Javanese
 (18)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Serbian
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Serbian
 (18)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Afrikaans
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Afrikaans
 (11)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Estonian
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Estonian
 (9)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Tamil
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Tamil
 (9)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Telugu
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Telugu
 (9)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Mongolian
-(8)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Bulgarian
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Bulgarian
 (7)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Catalan
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Catalan
 (7)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Burmese
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Mongolian
+(7)
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Burmese
 (5)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Czech
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Czech
 (5)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Lithuanian
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Lithuanian
 (5)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Albanian
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Albanian
 (4)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Amharic
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Amharic
 (4)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Nepali
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Nepali
 (4)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Somali
+2025-11-20 14:12:20 INFO  TC001_HomePageTest:79 - Language: Somali
 (4)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Croatian
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Croatian
 (3)
-2025-11-16 23:21:34 INFO  TC001_HomePageTest:73 - Language: Georgian
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Marathi
 (3)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Marathi
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Slovak
 (3)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Slovak
-(3)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Swahili
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Georgian
 (2)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Danish
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Swahili
+(2)
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Danish
 (1)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Finnish
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Finnish
 (1)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Kannada
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Kannada
 (1)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Khmer
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Khmer
 (1)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Kinyarwanda
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Kinyarwanda
 (1)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Macedonian
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Macedonian
 (1)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Nyanja
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Nyanja
 (1)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Slovenian
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Slovenian
 (1)
-2025-11-16 23:21:35 INFO  TC001_HomePageTest:73 - Language: Tagalog
+2025-11-20 14:12:21 INFO  TC001_HomePageTest:79 - Language: Tagalog
 (1)
-2025-11-16 23:21:45 INFO  TC002_ForCampusPageTest:24 - Navigating to For Campus...
-2025-11-16 23:21:52 INFO  TC002_ForCampusPageTest:33 - Filling form with invalid email...
-2025-11-16 23:22:00 INFO  TC002_ForCampusPageTest:37 - Captured Error Message: Please enter your work email address
+2025-11-20 14:12:26 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 14:12:26 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 14:12:31 INFO  TC002_ForCampusPageTest:22 - Navigating to For Campus...
+2025-11-20 14:12:58 INFO  TC002_ForCampusPageTest:31 - Filling form with invalid email...
+2025-11-20 14:13:06 INFO  TC002_ForCampusPageTest:38 - Captured Error Message: Please enter your work email address
+2025-11-20 15:16:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-20 15:16:45 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:16:45 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:16:50 INFO  TC001_HomePageTest:22 - Searching for Web Development courses...
+2025-11-20 15:16:54 INFO  TC001_HomePageTest:25 - Applying Beginner level filter...
+2025-11-20 15:16:55 INFO  TC001_HomePageTest:28 - Applying English language filter...
+2025-11-20 15:16:56 ERROR TC001_HomePageTest:51 - Error occurred in TC001_IdentifyCourses: element click intercepted: Element <input class="cds-312" id="cds-react-aria6987788936-:r1r:" type="checkbox" data-indeterminate="false" aria-labelledby="cds-react-aria6987788936-:r1r:-label-text" value=""> is not clickable at point (605, 368). Other element would receive the click: <div class="cds-225 cds-171 cds-popoverDropdown-paper cds-228 cds-226" tabindex="-1" style="opacity: 1; transform: none; transition: opacity cubic-bezier(0.4, 0, 0.2, 1), transform cubic-bezier(0.4, 0, 0.2, 1); top: 217px; left: 604px; transform-origin: 0px 0px;">...</div>
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9cc615437d82047a3776362166f6cf30, clickElement {id=f.19C33B351DFAAE66BBC23CC26E9861DB.d.80F5F1BC28C8525FD1DC4794A21D965D.e.114}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9cc615437d82047a3776362166f6cf30)] -> xpath: (//input[contains(@class,'cds')])[2]]
+Session ID: 9cc615437d82047a3776362166f6cf30
+2025-11-20 15:17:01 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:17:01 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:17:10 INFO  TC001_HomePageTest:66 - Levels count: 4
+2025-11-20 15:17:10 INFO  TC001_HomePageTest:68 - Level: Beginner
+(4,950)
+2025-11-20 15:17:10 INFO  TC001_HomePageTest:68 - Level: Intermediate
+(3,180)
+2025-11-20 15:17:10 INFO  TC001_HomePageTest:68 - Level: Advanced
+(334)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:68 - Level: Mixed
+(847)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:77 - Languages count: 62
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: English
+(8,174)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Spanish
+(4,434)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: French
+(2,928)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Portuguese
+(2,906)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Arabic
+(2,775)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: German
+(2,727)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Indonesian
+(2,651)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Chinese
+(2,626)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Russian
+(2,537)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Japanese
+(2,489)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Hindi
+(2,430)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Korean
+(2,427)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Turkish
+(2,357)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Italian
+(2,349)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Thai
+(2,342)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Ukrainian
+(2,331)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Greek
+(2,321)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Polish
+(2,299)
+2025-11-20 15:17:11 INFO  TC001_HomePageTest:79 - Language: Dutch
+(2,294)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Swedish
+(2,269)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Kazakh
+(2,187)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Vietnamese
+(1,824)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Hungarian
+(1,439)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Pushto
+(1,439)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Azerbaijani
+(1,347)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Urdu
+(1,344)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Bengali
+(1,343)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Uzbek
+(876)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Oriya
+(261)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Persian
+(40)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Romanian
+(37)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Hebrew
+(20)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Javanese
+(18)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Serbian
+(18)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Afrikaans
+(11)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Estonian
+(9)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Tamil
+(9)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Telugu
+(9)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Bulgarian
+(7)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Catalan
+(7)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Mongolian
+(7)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Burmese
+(5)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Czech
+(5)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Lithuanian
+(5)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Albanian
+(4)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Amharic
+(4)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Nepali
+(4)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Somali
+(4)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Croatian
+(3)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Marathi
+(3)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Slovak
+(3)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Georgian
+(2)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Swahili
+(2)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Danish
+(1)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Finnish
+(1)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Kannada
+(1)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Khmer
+(1)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Kinyarwanda
+(1)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Macedonian
+(1)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Nyanja
+(1)
+2025-11-20 15:17:12 INFO  TC001_HomePageTest:79 - Language: Slovenian
+(1)
+2025-11-20 15:17:13 INFO  TC001_HomePageTest:79 - Language: Tagalog
+(1)
+2025-11-20 15:17:16 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:17:16 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:17:20 INFO  TC002_ForCampusPageTest:22 - Navigating to For Campus...
+2025-11-20 15:17:30 INFO  TC002_ForCampusPageTest:31 - Filling form with invalid email...
+2025-11-20 15:17:38 INFO  TC002_ForCampusPageTest:38 - Captured Error Message: Please enter your work email address
+2025-11-20 15:19:09 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-20 15:19:10 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:19:10 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:19:16 INFO  TC001_HomePageTest:22 - Searching for Web Development courses...
+2025-11-20 15:19:22 INFO  TC001_HomePageTest:25 - Applying Beginner level filter...
+2025-11-20 15:19:23 INFO  TC001_HomePageTest:28 - Applying English language filter...
+2025-11-20 15:19:26 INFO  TC001_HomePageTest:39 - Course 1
+2025-11-20 15:19:26 INFO  TC001_HomePageTest:40 - Name: Introduction to HTML, CSS, & JavaScript
+2025-11-20 15:19:26 INFO  TC001_HomePageTest:41 - Rating: 4.4
+2025-11-20 15:19:26 INFO  TC001_HomePageTest:42 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-20 15:19:26 INFO  TC001_HomePageTest:39 - Course 2
+2025-11-20 15:19:26 INFO  TC001_HomePageTest:40 - Name: Introduction to Front-End Development
+2025-11-20 15:19:26 INFO  TC001_HomePageTest:41 - Rating: 4.8
+2025-11-20 15:19:26 INFO  TC001_HomePageTest:42 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-20 15:19:30 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:19:30 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:19:42 INFO  TC001_HomePageTest:66 - Levels count: 4
+2025-11-20 15:19:42 INFO  TC001_HomePageTest:68 - Level: Beginner
+(4,950)
+2025-11-20 15:19:42 INFO  TC001_HomePageTest:68 - Level: Intermediate
+(3,180)
+2025-11-20 15:19:42 INFO  TC001_HomePageTest:68 - Level: Advanced
+(334)
+2025-11-20 15:19:42 INFO  TC001_HomePageTest:68 - Level: Mixed
+(847)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:77 - Languages count: 62
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: English
+(8,174)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Spanish
+(4,434)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: French
+(2,928)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Portuguese
+(2,906)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Arabic
+(2,775)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: German
+(2,727)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Indonesian
+(2,651)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Chinese
+(2,626)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Russian
+(2,537)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Japanese
+(2,489)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Hindi
+(2,430)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Korean
+(2,427)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Turkish
+(2,357)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Italian
+(2,349)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Thai
+(2,342)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Ukrainian
+(2,331)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Greek
+(2,321)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Polish
+(2,299)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Dutch
+(2,294)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Swedish
+(2,269)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Kazakh
+(2,187)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Vietnamese
+(1,824)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Hungarian
+(1,439)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Pushto
+(1,439)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Azerbaijani
+(1,347)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Urdu
+(1,344)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Bengali
+(1,343)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Uzbek
+(876)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Oriya
+(261)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Persian
+(40)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Romanian
+(37)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Hebrew
+(20)
+2025-11-20 15:19:43 INFO  TC001_HomePageTest:79 - Language: Javanese
+(18)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Serbian
+(18)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Afrikaans
+(11)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Estonian
+(9)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Tamil
+(9)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Telugu
+(9)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Bulgarian
+(7)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Catalan
+(7)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Mongolian
+(7)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Burmese
+(5)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Czech
+(5)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Lithuanian
+(5)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Albanian
+(4)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Amharic
+(4)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Nepali
+(4)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Somali
+(4)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Croatian
+(3)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Marathi
+(3)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Slovak
+(3)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Georgian
+(2)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Swahili
+(2)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Danish
+(1)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Finnish
+(1)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Kannada
+(1)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Khmer
+(1)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Kinyarwanda
+(1)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Macedonian
+(1)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Nyanja
+(1)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Slovenian
+(1)
+2025-11-20 15:19:44 INFO  TC001_HomePageTest:79 - Language: Tagalog
+(1)
+2025-11-20 15:19:48 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:19:48 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:19:55 INFO  TC002_ForCampusPageTest:22 - Navigating to For Campus...
+2025-11-20 15:20:03 INFO  TC002_ForCampusPageTest:31 - Filling form with invalid email...
+2025-11-20 15:20:12 INFO  TC002_ForCampusPageTest:38 - Captured Error Message: Please enter your work email address
+2025-11-20 15:22:40 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-20 15:22:40 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:22:40 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:22:48 INFO  TC001_HomePageTest:22 - Searching for Web Development courses...
+2025-11-20 15:22:54 INFO  TC001_HomePageTest:25 - Applying Beginner level filter...
+2025-11-20 15:22:54 INFO  TC001_HomePageTest:28 - Applying English language filter...
+2025-11-20 15:26:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-20 15:26:12 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:26:12 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:26:21 INFO  TC001_HomePageTest:22 - Searching for Web Development courses...
+2025-11-20 15:26:26 INFO  TC001_HomePageTest:25 - Applying Beginner level filter...
+2025-11-20 15:26:27 INFO  TC001_HomePageTest:28 - Applying English language filter...
+2025-11-20 15:26:30 INFO  TC001_HomePageTest:39 - Course 1
+2025-11-20 15:26:30 INFO  TC001_HomePageTest:40 - Name: Introduction to HTML, CSS, & JavaScript
+2025-11-20 15:26:30 INFO  TC001_HomePageTest:41 - Rating: 4.4
+2025-11-20 15:26:30 INFO  TC001_HomePageTest:42 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-20 15:26:30 INFO  TC001_HomePageTest:39 - Course 2
+2025-11-20 15:26:30 INFO  TC001_HomePageTest:40 - Name: Introduction to Front-End Development
+2025-11-20 15:26:30 INFO  TC001_HomePageTest:41 - Rating: 4.8
+2025-11-20 15:26:30 INFO  TC001_HomePageTest:42 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-20 15:26:34 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:26:34 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:26:48 INFO  TC001_HomePageTest:66 - Levels count: 4
+2025-11-20 15:26:48 INFO  TC001_HomePageTest:68 - Level: Beginner
+(4,950)
+2025-11-20 15:26:48 INFO  TC001_HomePageTest:68 - Level: Intermediate
+(3,180)
+2025-11-20 15:26:48 INFO  TC001_HomePageTest:68 - Level: Advanced
+(334)
+2025-11-20 15:26:48 INFO  TC001_HomePageTest:68 - Level: Mixed
+(847)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:77 - Languages count: 62
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: English
+(8,174)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Spanish
+(4,434)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: French
+(2,928)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Portuguese
+(2,906)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Arabic
+(2,775)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: German
+(2,727)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Indonesian
+(2,651)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Chinese
+(2,626)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Russian
+(2,537)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Japanese
+(2,489)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Hindi
+(2,430)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Korean
+(2,427)
+2025-11-20 15:26:49 INFO  TC001_HomePageTest:79 - Language: Turkish
+(2,357)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Italian
+(2,349)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Thai
+(2,342)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Ukrainian
+(2,331)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Greek
+(2,321)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Polish
+(2,299)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Dutch
+(2,294)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Swedish
+(2,269)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Kazakh
+(2,187)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Vietnamese
+(1,824)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Hungarian
+(1,439)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Pushto
+(1,439)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Azerbaijani
+(1,347)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Urdu
+(1,344)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Bengali
+(1,343)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Uzbek
+(876)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Oriya
+(261)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Persian
+(40)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Romanian
+(37)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Hebrew
+(20)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Javanese
+(18)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Serbian
+(18)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Afrikaans
+(11)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Estonian
+(9)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Tamil
+(9)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Telugu
+(9)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Bulgarian
+(7)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Catalan
+(7)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Mongolian
+(7)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Burmese
+(5)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Czech
+(5)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Lithuanian
+(5)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Albanian
+(4)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Amharic
+(4)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Nepali
+(4)
+2025-11-20 15:26:50 INFO  TC001_HomePageTest:79 - Language: Somali
+(4)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Croatian
+(3)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Marathi
+(3)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Slovak
+(3)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Georgian
+(2)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Swahili
+(2)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Danish
+(1)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Finnish
+(1)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Kannada
+(1)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Khmer
+(1)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Kinyarwanda
+(1)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Macedonian
+(1)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Nyanja
+(1)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Slovenian
+(1)
+2025-11-20 15:26:51 INFO  TC001_HomePageTest:79 - Language: Tagalog
+(1)
+2025-11-20 15:26:55 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-20 15:26:55 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-20 15:27:02 INFO  TC002_ForCampusPageTest:22 - Navigating to For Campus...
+2025-11-20 15:27:14 ERROR TC002_ForCampusPageTest:44 - Error occurred in Form Validation test: Error communicating with the remote browser. It may have died.
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e4069032900de401f5fc1efa58f29737, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63710}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63710/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4069032900de401f5fc1efa58f29737

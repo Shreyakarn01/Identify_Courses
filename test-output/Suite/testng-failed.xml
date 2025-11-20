@@ -11,7 +11,7 @@
       <class name="testCases.TC001_HomePageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testLanguageLearningDropdown"/>
+          <include name="testIdentifyCourses"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testCases.TC001_HomePageTest -->

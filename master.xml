@@ -10,17 +10,8 @@
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="testCases.TC001_HomePageTest">
-				<methods>
-					<include name="testIdentifyCourses" />
-					<include name="testLanguageLearningDropdown" />
-				</methods>
-			</class>
-			<class name="testCases.TC002_ForCampusPageTest">
-				<methods>
-					<include name="testFormValidation" />
-				</methods>
-			</class>
+			<class name="testCases.TC001_HomePageTest"/>
+			<class name="testCases.TC002_ForCampusPageTest"/>
 		</classes>
 	</test>
 	

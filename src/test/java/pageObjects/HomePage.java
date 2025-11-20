@@ -1,10 +1,14 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage {
 
@@ -29,7 +33,9 @@ public class HomePage extends BasePage {
 	public WebElement languageFilter;
 
 	// Filter for English language
-	@FindBy(xpath = "(//input[starts-with(@class,'cds')])[2]")
+	@FindBy(xpath = "(//input[contains(@class,'cds')])[2]")
+//	@FindBy(xpath = "//span[@class='cds-268']//input")
+//	@FindBy(xpath = "//span[@class='cds-321']/input[@type='checkbox']")
 	private WebElement englishChk;
 
 	@FindBy(xpath = "//span[text()='View']")
@@ -49,18 +55,25 @@ public class HomePage extends BasePage {
 	public void searchWebDevelopmentCourses() {
 		searchBar.sendKeys("web development");
 		searchButton.click();
-
 	}
 
 	public void beginnerLevelChk() {
 		levelFilter.click();
 		beginnerChk.click();
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='View']")));
 		viewBtn.click();
 	}
 
 	public void selectEnglishLanguage() {
 		languageFilter.click();
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input[starts-with(@class,'cds')])[2]"))).click();
+
 		englishChk.click();
+		WebDriverWait wait1 = new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='View']")));
 		viewBtn.click();
 
 	}

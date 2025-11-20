@@ -1,9 +1,12 @@
 package testCases;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
@@ -24,6 +27,7 @@ public class TC001_HomePageTest extends BaseClass {
 
             logger.info("Applying English language filter...");
             homePage.selectEnglishLanguage();
+
 
             String[][] courses = homePage.getFirstTwoCourses();
 
@@ -63,7 +67,9 @@ public class TC001_HomePageTest extends BaseClass {
         	    for (WebElement lvl : levels) {
                     logger.info("Level: " + lvl.getText());
                 }
-        	    driver.findElement(By.xpath("//span[text()='View']")).click();
+        	    WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='View']"))).click();
+//        	    driver.findElement(By.xpath("//span[text()='View']")).click();
         	    
         	    
         	    hp.languageFilter.click();

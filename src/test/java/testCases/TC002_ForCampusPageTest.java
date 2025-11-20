@@ -1,14 +1,12 @@
 package testCases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.ForCampusPage;
 import testBase.BaseClass;
+import utilities.ExcelUtility;
 
-import java.util.List;
 
 public class TC002_ForCampusPageTest extends BaseClass {
 
@@ -31,7 +29,10 @@ public class TC002_ForCampusPageTest extends BaseClass {
             Assert.assertEquals(heading, "Coursera for Campus","User is not on the campus page");
             
             logger.info("Filling form with invalid email...");
-            campusPage.submitReadyToTransformForm("John","Doe","test1@gmail.com","9876543210","University/4 Year College","XYZ","Student","Strategic Planning","Courses for myself","India","Maharashtra");
+            ExcelUtility eu = new ExcelUtility();
+            String[][] data = eu.getInputValues();
+            
+            campusPage.submitReadyToTransformForm(data[0][0],data[1][0],data[2][0],data[3][0],data[4][0],data[5][0],data[6][0],data[7][0],data[8][0],data[9][0],data[10][0]);
 
             String errorMsg = campusPage.getFormErrorMessage();
             logger.info("Captured Error Message: " + errorMsg);
