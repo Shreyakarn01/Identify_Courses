@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-20T15:19:09 IST" name="Suite" finished-at="2025-11-20T15:20:16 IST" duration-ms="67266">
+  <suite started-at="2025-11-25T14:51:26 IST" name="Suite" finished-at="2025-11-25T14:52:12 IST" duration-ms="46499">
     <groups>
     </groups>
-    <test started-at="2025-11-20T15:19:09 IST" name="Test" finished-at="2025-11-20T15:20:16 IST" duration-ms="67266">
-      <class name="testCases.TC001_HomePageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePageTest@52066604]" started-at="2025-11-20T15:19:09 IST" name="setUp" finished-at="2025-11-20T15:19:16 IST" duration-ms="7083" status="PASS">
+    <test started-at="2025-11-25T14:51:26 IST" name="Test" finished-at="2025-11-25T14:52:12 IST" duration-ms="46499">
+      <class name="testCases.TC_Coursera">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_Coursera@3a3e78f]" started-at="2025-11-25T14:51:26 IST" name="setUp" finished-at="2025-11-25T14:51:36 IST" duration-ms="10067" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,65 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testIdentifyCourses()[pri:0, instance:testCases.TC001_HomePageTest@52066604]" started-at="2025-11-20T15:19:16 IST" name="testIdentifyCourses" finished-at="2025-11-20T15:19:26 IST" duration-ms="10055" status="PASS">
+        <test-method signature="testIdentifyCourses()[pri:0, instance:testCases.TC_Coursera@3a3e78f]" started-at="2025-11-25T14:51:36 IST" name="testIdentifyCourses" finished-at="2025-11-25T14:52:07 IST" duration-ms="30645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIdentifyCourses -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePageTest@52066604]" started-at="2025-11-20T15:19:26 IST" name="tearDown" finished-at="2025-11-20T15:19:30 IST" duration-ms="3895" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Coursera@3a3e78f]" started-at="2025-11-25T14:52:07 IST" name="tearDown" finished-at="2025-11-25T14:52:12 IST" duration-ms="5490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_HomePageTest@52066604]" started-at="2025-11-20T15:19:30 IST" name="setUp" finished-at="2025-11-20T15:19:36 IST" duration-ms="5401" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLanguageLearningDropdown()[pri:0, instance:testCases.TC001_HomePageTest@52066604]" started-at="2025-11-20T15:19:36 IST" name="testLanguageLearningDropdown" finished-at="2025-11-20T15:19:44 IST" duration-ms="8851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLanguageLearningDropdown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_HomePageTest@52066604]" started-at="2025-11-20T15:19:44 IST" name="tearDown" finished-at="2025-11-20T15:19:48 IST" duration-ms="3764" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_HomePageTest -->
-      <class name="testCases.TC002_ForCampusPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_ForCampusPageTest@674bd420]" started-at="2025-11-20T15:19:48 IST" name="setUp" finished-at="2025-11-20T15:19:55 IST" duration-ms="7134" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testFormValidation()[pri:0, instance:testCases.TC002_ForCampusPageTest@674bd420]" started-at="2025-11-20T15:19:55 IST" name="testFormValidation" finished-at="2025-11-20T15:20:12 IST" duration-ms="16233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFormValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_ForCampusPageTest@674bd420]" started-at="2025-11-20T15:20:12 IST" name="tearDown" finished-at="2025-11-20T15:20:16 IST" duration-ms="4577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_ForCampusPageTest -->
+      </class> <!-- testCases.TC_Coursera -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

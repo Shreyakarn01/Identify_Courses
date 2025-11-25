@@ -1,9 +1,11 @@
 package pageObjects;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,30 +14,31 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage {
 
-	// Search bar to enter search query
 	@FindBy(id = "search-autocomplete-input")
 	private WebElement searchBar;
 
-	// Search button
-	@FindBy(xpath = "(//div[@class='magnifier-wrapper'])[2]")
-	private WebElement searchButton;
-
-	// Click level filter
-	@FindBy(xpath = "(//div[@class='css-16tmax3'])[6]")
+//	@FindBy(xpath = "(//div[@class='css-16tmax3'])[12]")
+//	public WebElement levelFilter1;
+//	
+//	@FindBy(xpath = "(//div[@class='css-16tmax3'])[6]")
+//	public WebElement levelFilter2;
+	
+	@FindBy(xpath = "//div[text()='Level']")
 	public WebElement levelFilter;
 
-	// Select Beginner level
 	@FindBy(xpath = "(//input[@class='cds-215'])[1]")
 	private WebElement beginnerChk;
 
-	// Click language filter
-	@FindBy(xpath = "(//div[@class='css-16tmax3'])[5]")
+//	@FindBy(xpath = "(//div[@class='css-16tmax3'])[11]")
+//	public WebElement languageFilter1;
+//	
+//	@FindBy(xpath = "(//div[@class='css-16tmax3'])[5]")
+//	public WebElement languageFilter2;
+	
+	@FindBy(xpath = "//div[text()='Language']")
 	public WebElement languageFilter;
 
-	// Filter for English language
 	@FindBy(xpath = "(//input[contains(@class,'cds')])[2]")
-//	@FindBy(xpath = "//span[@class='cds-268']//input")
-//	@FindBy(xpath = "//span[@class='cds-321']/input[@type='checkbox']")
 	private WebElement englishChk;
 
 	@FindBy(xpath = "//span[text()='View']")
@@ -51,34 +54,51 @@ public class HomePage extends BasePage {
 		super(driver);
 
 	}
+	
+	
 
 	public void searchWebDevelopmentCourses() {
-		searchBar.sendKeys("web development");
-		searchButton.click();
+		searchBar.sendKeys("web development",Keys.ENTER);
 	}
+	
+	
+	public void levelClick() {
+//        List<WebElement> lt = driver.findElements(By.xpath("//div[@class='css-16tmax3']"));
+//		
+//		if(lt.size()==12) levelFilter1.click();
+//		else levelFilter2.click();
+		
+		levelFilter.click();
+		}
+	
 
 	public void beginnerLevelChk() {
-		levelFilter.click();
 		beginnerChk.click();
+		
+	}
+	
+	
+	public void viewBtnClick() {
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='View']")));
 		viewBtn.click();
 	}
+	
+	
+	public void languageClick() {
+//        List<WebElement> lt = driver.findElements(By.xpath("//div[@class='css-16tmax3']"));
+//		
+//		if(lt.size()==12) languageFilter1.click();
+//		else languageFilter2.click();
+		languageFilter.click();
+	}
+	
 
 	public void selectEnglishLanguage() {
-		languageFilter.click();
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//
-//		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input[starts-with(@class,'cds')])[2]"))).click();
-
 		englishChk.click();
-		WebDriverWait wait1 = new WebDriverWait(driver,Duration.ofSeconds(10));
-		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='View']")));
-		viewBtn.click();
-
 	}
+	
 
-	// Extract first 2 course names, hours, ratings
 	public String[][] getFirstTwoCourses() {
 
 		String[][] arr = new String[2][3];
@@ -99,17 +119,15 @@ public class HomePage extends BasePage {
 		}
 
 		return arr;
-
 	}
 
-	//Navigation to "For Enterprise"
+	
 	public void goToForEnterprise() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0,document.body.scrollHeight);");
 		forEnterpriseLink.click();
 	}
 
-	//Navigation to "For Campus"
 	public void goToForCampus() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0,document.body.scrollHeight);");
