@@ -50,7 +50,7 @@ public class ForCampusPage extends BasePage {
 
     // Error message after form submission
     @FindBy(id = "ValidMsgEmail")
-    private WebElement validEmailErr;
+    public static WebElement validEmailErr;
     
     
     

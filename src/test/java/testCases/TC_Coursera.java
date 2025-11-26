@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -109,9 +110,18 @@ public class TC_Coursera extends BaseClass {
             String errorMsg = campusPage.getFormErrorMessage();
 
             test.log(Status.INFO, "Captured Error Message: " + errorMsg);
+            
+            //Taking ss of the error message displayed
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.scrollBy(0,-500);");
+            String imgPath = captureScreen("ErrorMsgDisplay");
+            test.addScreenCaptureFromPath(imgPath);
+            
+            test.log(Status.INFO, "Error Message ss captured successfully and displayed");
 
             logger.info("Captured Error Message: " + errorMsg);
             System.out.println("Captured Error Message: " + errorMsg);
+            System.out.println("Ss of error message taken");
 
             String expectedErrMsg = "Please enter your work email address";
             Assert.assertEquals(errorMsg, expectedErrMsg,"Email validation error message not correct");
