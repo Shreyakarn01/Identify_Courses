@@ -3018,3 +3018,722 @@ Session ID: 92d00bf5e5dde52d0272bec0b681cf1b
 2025-11-26 13:36:57 INFO  TC_Coursera:85 - Navigating to For Campus...
 2025-11-26 13:37:05 INFO  TC_Coursera:97 - Filling form with invalid email...
 2025-11-26 13:37:11 INFO  TC_Coursera:107 - Captured Error Message: Please enter your work email address
+2025-11-26 14:57:49 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-26 14:57:51 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-26 14:57:51 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-26 14:58:47 INFO  TC_Coursera:27 - Searching for Web Development courses...
+2025-11-26 14:59:35 INFO  TC_Coursera:31 - Applying Beginner level filter...
+2025-11-26 14:59:44 ERROR TC_Coursera:116 - Error occurred in TC001_IdentifyCourses: Error communicating with the remote browser. It may have died.
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b6f376a8db77b7a0c5baca843d3a4672, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53530}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53530/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b6f376a8db77b7a0c5baca843d3a4672
+2025-11-26 15:01:11 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-26 15:01:12 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-26 15:01:12 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-26 15:01:36 INFO  TC_Coursera:27 - Searching for Web Development courses...
+2025-11-26 15:02:02 INFO  TC_Coursera:31 - Applying Beginner level filter...
+2025-11-26 15:02:02 ERROR TC_Coursera:116 - Error occurred in TC001_IdentifyCourses: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=141.0.7390.108)
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbdd8d371e1c6862bf05051ba5f4ea45, findElement {using=xpath, value=//div[text()='Level']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57699}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57699/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbdd8d371e1c6862bf05051ba5f4ea45
+2025-11-26 15:02:53 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-26 15:02:53 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-26 15:02:53 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-26 15:03:07 INFO  TC_Coursera:27 - Searching for Web Development courses...
+2025-11-26 15:03:18 ERROR TC_Coursera:116 - Error occurred in TC001_IdentifyCourses: Error communicating with the remote browser. It may have died.
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12e97f3df34ee3dfbe92098d76618569, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55879/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12e97f3df34ee3dfbe92098d76618569
+2025-11-26 15:03:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-26 15:03:26 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-26 15:03:26 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-26 15:03:33 INFO  TC_Coursera:27 - Searching for Web Development courses...
+2025-11-26 15:03:37 INFO  TC_Coursera:31 - Applying Beginner level filter...
+2025-11-26 15:03:38 INFO  TC_Coursera:37 - Levels count: 4
+2025-11-26 15:03:38 INFO  TC_Coursera:42 - Level: Beginner
+(4,983)
+2025-11-26 15:03:38 INFO  TC_Coursera:42 - Level: Intermediate
+(3,196)
+2025-11-26 15:03:38 INFO  TC_Coursera:42 - Level: Advanced
+(334)
+2025-11-26 15:03:38 INFO  TC_Coursera:42 - Level: Mixed
+(856)
+2025-11-26 15:03:38 INFO  TC_Coursera:51 - Applying English language filter...
+2025-11-26 15:03:41 ERROR TC_Coursera:116 - Error occurred in TC001_IdentifyCourses: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.108)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.36.0', revision: '6d115cfd87'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d0fb64d3e2dd0b8f8eff40d45f2fd433, isElementDisplayed {id=f.4FFBE749225975C61A9AA076D23676C0.d.2F9C00D896F95502C677219BF42DF189.e.216}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.108, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\2445083\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62849}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62849/devtoo..., se:cdpVersion: 141.0.7390.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d0fb64d3e2dd0b8f8eff40d45f2fd433)] -> xpath: //div[contains(@class,'cds-formGroup-groupWrapper')]//div[@class='css-ksf52d']]
+Session ID: d0fb64d3e2dd0b8f8eff40d45f2fd433
+2025-11-26 15:06:52 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-26 15:06:53 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-26 15:06:53 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-26 15:06:58 INFO  TC_Coursera:27 - Searching for Web Development courses...
+2025-11-26 15:07:03 INFO  TC_Coursera:31 - Applying Beginner level filter...
+2025-11-26 15:07:04 INFO  TC_Coursera:37 - Levels count: 4
+2025-11-26 15:07:04 INFO  TC_Coursera:42 - Level: Beginner
+(4,983)
+2025-11-26 15:07:04 INFO  TC_Coursera:42 - Level: Intermediate
+(3,196)
+2025-11-26 15:07:04 INFO  TC_Coursera:42 - Level: Advanced
+(334)
+2025-11-26 15:07:04 INFO  TC_Coursera:42 - Level: Mixed
+(856)
+2025-11-26 15:07:05 INFO  TC_Coursera:51 - Applying English language filter...
+2025-11-26 15:07:07 INFO  TC_Coursera:57 - Languages count: 51
+2025-11-26 15:07:07 INFO  TC_Coursera:61 - Language: English
+(4,164)
+2025-11-26 15:07:07 INFO  TC_Coursera:61 - Language: Spanish
+(2,487)
+2025-11-26 15:07:07 INFO  TC_Coursera:61 - Language: French
+(1,648)
+2025-11-26 15:07:07 INFO  TC_Coursera:61 - Language: Portuguese
+(1,641)
+2025-11-26 15:07:07 INFO  TC_Coursera:61 - Language: Arabic
+(1,604)
+2025-11-26 15:07:07 INFO  TC_Coursera:61 - Language: German
+(1,546)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Indonesian
+(1,503)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Chinese
+(1,458)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Russian
+(1,407)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Japanese
+(1,404)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Korean
+(1,378)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Hindi
+(1,361)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Turkish
+(1,341)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Ukrainian
+(1,324)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Italian
+(1,321)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Thai
+(1,320)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Greek
+(1,299)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Polish
+(1,298)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Dutch
+(1,291)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Swedish
+(1,272)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Kazakh
+(1,224)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Vietnamese
+(1,094)
+2025-11-26 15:07:08 INFO  TC_Coursera:61 - Language: Pushto
+(793)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Hungarian
+(787)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Azerbaijani
+(733)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Urdu
+(729)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Bengali
+(728)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Uzbek
+(504)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Oriya
+(158)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Romanian
+(25)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Persian
+(19)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Javanese
+(14)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Hebrew
+(12)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Serbian
+(9)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Catalan
+(6)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Tamil
+(6)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Afrikaans
+(5)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Estonian
+(5)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Telugu
+(4)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Croatian
+(3)
+2025-11-26 15:07:09 INFO  TC_Coursera:61 - Language: Mongolian
+(3)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Slovak
+(3)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Czech
+(2)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Georgian
+(2)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Marathi
+(2)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Albanian
+(1)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Bulgarian
+(1)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Danish
+(1)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Lithuanian
+(1)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Nepali
+(1)
+2025-11-26 15:07:10 INFO  TC_Coursera:61 - Language: Tagalog
+(1)
+2025-11-26 15:07:12 INFO  TC_Coursera:74 - Course 1
+2025-11-26 15:07:12 INFO  TC_Coursera:75 - Name: Introduction to HTML, CSS, & JavaScript
+2025-11-26 15:07:12 INFO  TC_Coursera:76 - Rating: 4.4
+2025-11-26 15:07:12 INFO  TC_Coursera:77 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:07:12 INFO  TC_Coursera:74 - Course 2
+2025-11-26 15:07:12 INFO  TC_Coursera:75 - Name: Introduction to Front-End Development
+2025-11-26 15:07:12 INFO  TC_Coursera:76 - Rating: 4.8
+2025-11-26 15:07:12 INFO  TC_Coursera:77 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:07:12 INFO  TC_Coursera:85 - Navigating to For Campus...
+2025-11-26 15:08:42 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-26 15:08:42 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-26 15:08:42 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-26 15:08:47 INFO  TC_Coursera:27 - Searching for Web Development courses...
+2025-11-26 15:08:52 INFO  TC_Coursera:31 - Applying Beginner level filter...
+2025-11-26 15:08:53 INFO  TC_Coursera:37 - Levels count: 4
+2025-11-26 15:08:53 INFO  TC_Coursera:42 - Level: Beginner
+(4,983)
+2025-11-26 15:08:53 INFO  TC_Coursera:42 - Level: Intermediate
+(3,196)
+2025-11-26 15:08:53 INFO  TC_Coursera:42 - Level: Advanced
+(334)
+2025-11-26 15:08:53 INFO  TC_Coursera:42 - Level: Mixed
+(856)
+2025-11-26 15:08:54 INFO  TC_Coursera:51 - Applying English language filter...
+2025-11-26 15:08:56 INFO  TC_Coursera:57 - Languages count: 51
+2025-11-26 15:08:56 INFO  TC_Coursera:61 - Language: English
+(4,164)
+2025-11-26 15:08:56 INFO  TC_Coursera:61 - Language: Spanish
+(2,487)
+2025-11-26 15:08:56 INFO  TC_Coursera:61 - Language: French
+(1,648)
+2025-11-26 15:08:56 INFO  TC_Coursera:61 - Language: Portuguese
+(1,641)
+2025-11-26 15:08:56 INFO  TC_Coursera:61 - Language: Arabic
+(1,604)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: German
+(1,546)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Indonesian
+(1,503)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Chinese
+(1,458)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Russian
+(1,407)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Japanese
+(1,404)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Korean
+(1,378)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Hindi
+(1,361)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Turkish
+(1,341)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Ukrainian
+(1,324)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Italian
+(1,321)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Thai
+(1,320)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Greek
+(1,299)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Polish
+(1,298)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Dutch
+(1,291)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Swedish
+(1,272)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Kazakh
+(1,224)
+2025-11-26 15:08:57 INFO  TC_Coursera:61 - Language: Vietnamese
+(1,094)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Pushto
+(793)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Hungarian
+(787)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Azerbaijani
+(733)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Urdu
+(729)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Bengali
+(728)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Uzbek
+(504)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Oriya
+(158)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Romanian
+(25)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Persian
+(19)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Javanese
+(14)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Hebrew
+(12)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Serbian
+(9)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Catalan
+(6)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Tamil
+(6)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Afrikaans
+(5)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Estonian
+(5)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Telugu
+(4)
+2025-11-26 15:08:58 INFO  TC_Coursera:61 - Language: Croatian
+(3)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Mongolian
+(3)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Slovak
+(3)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Czech
+(2)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Georgian
+(2)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Marathi
+(2)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Albanian
+(1)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Bulgarian
+(1)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Danish
+(1)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Lithuanian
+(1)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Nepali
+(1)
+2025-11-26 15:08:59 INFO  TC_Coursera:61 - Language: Tagalog
+(1)
+2025-11-26 15:09:01 INFO  TC_Coursera:74 - Course 1
+2025-11-26 15:09:01 INFO  TC_Coursera:75 - Name: Introduction to HTML, CSS, & JavaScript
+2025-11-26 15:09:01 INFO  TC_Coursera:76 - Rating: 4.4
+2025-11-26 15:09:01 INFO  TC_Coursera:77 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:09:01 INFO  TC_Coursera:74 - Course 2
+2025-11-26 15:09:01 INFO  TC_Coursera:75 - Name: Introduction to Front-End Development
+2025-11-26 15:09:01 INFO  TC_Coursera:76 - Rating: 4.8
+2025-11-26 15:09:01 INFO  TC_Coursera:77 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:09:01 INFO  TC_Coursera:85 - Navigating to For Campus...
+2025-11-26 15:11:23 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-26 15:11:24 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-26 15:11:24 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-26 15:11:31 INFO  TC_Coursera:27 - Searching for Web Development courses...
+2025-11-26 15:11:35 INFO  TC_Coursera:31 - Applying Beginner level filter...
+2025-11-26 15:11:35 INFO  TC_Coursera:37 - Levels count: 4
+2025-11-26 15:11:35 INFO  TC_Coursera:42 - Level: Beginner
+(4,983)
+2025-11-26 15:11:35 INFO  TC_Coursera:42 - Level: Intermediate
+(3,196)
+2025-11-26 15:11:35 INFO  TC_Coursera:42 - Level: Advanced
+(334)
+2025-11-26 15:11:35 INFO  TC_Coursera:42 - Level: Mixed
+(856)
+2025-11-26 15:11:36 INFO  TC_Coursera:51 - Applying English language filter...
+2025-11-26 15:11:38 INFO  TC_Coursera:57 - Languages count: 51
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: English
+(4,164)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Spanish
+(2,487)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: French
+(1,648)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Portuguese
+(1,641)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Arabic
+(1,604)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: German
+(1,546)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Indonesian
+(1,503)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Chinese
+(1,458)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Russian
+(1,407)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Japanese
+(1,404)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Korean
+(1,378)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Hindi
+(1,361)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Turkish
+(1,341)
+2025-11-26 15:11:38 INFO  TC_Coursera:61 - Language: Ukrainian
+(1,324)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Italian
+(1,321)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Thai
+(1,320)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Greek
+(1,299)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Polish
+(1,298)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Dutch
+(1,291)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Swedish
+(1,272)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Kazakh
+(1,224)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Vietnamese
+(1,094)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Pushto
+(793)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Hungarian
+(787)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Azerbaijani
+(733)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Urdu
+(729)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Bengali
+(728)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Uzbek
+(504)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Oriya
+(158)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Romanian
+(25)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Persian
+(19)
+2025-11-26 15:11:39 INFO  TC_Coursera:61 - Language: Javanese
+(14)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Hebrew
+(12)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Serbian
+(9)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Catalan
+(6)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Tamil
+(6)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Afrikaans
+(5)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Estonian
+(5)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Telugu
+(4)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Croatian
+(3)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Mongolian
+(3)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Slovak
+(3)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Czech
+(2)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Georgian
+(2)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Marathi
+(2)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Albanian
+(1)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Bulgarian
+(1)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Danish
+(1)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Lithuanian
+(1)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Nepali
+(1)
+2025-11-26 15:11:40 INFO  TC_Coursera:61 - Language: Tagalog
+(1)
+2025-11-26 15:11:42 INFO  TC_Coursera:74 - Course 1
+2025-11-26 15:11:42 INFO  TC_Coursera:75 - Name: Introduction to HTML, CSS, & JavaScript
+2025-11-26 15:11:42 INFO  TC_Coursera:76 - Rating: 4.4
+2025-11-26 15:11:42 INFO  TC_Coursera:77 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:11:42 INFO  TC_Coursera:74 - Course 2
+2025-11-26 15:11:42 INFO  TC_Coursera:75 - Name: Introduction to Front-End Development
+2025-11-26 15:11:42 INFO  TC_Coursera:76 - Rating: 4.8
+2025-11-26 15:11:42 INFO  TC_Coursera:77 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:11:42 INFO  TC_Coursera:85 - Navigating to For Campus...
+2025-11-26 15:12:22 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-26 15:12:23 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-26 15:12:23 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-26 15:12:27 INFO  TC_Coursera:27 - Searching for Web Development courses...
+2025-11-26 15:12:33 INFO  TC_Coursera:31 - Applying Beginner level filter...
+2025-11-26 15:12:34 INFO  TC_Coursera:37 - Levels count: 4
+2025-11-26 15:12:34 INFO  TC_Coursera:42 - Level: Beginner
+(4,983)
+2025-11-26 15:12:34 INFO  TC_Coursera:42 - Level: Intermediate
+(3,196)
+2025-11-26 15:12:34 INFO  TC_Coursera:42 - Level: Advanced
+(334)
+2025-11-26 15:12:34 INFO  TC_Coursera:42 - Level: Mixed
+(856)
+2025-11-26 15:12:35 INFO  TC_Coursera:51 - Applying English language filter...
+2025-11-26 15:12:37 INFO  TC_Coursera:57 - Languages count: 51
+2025-11-26 15:12:37 INFO  TC_Coursera:61 - Language: English
+(4,164)
+2025-11-26 15:12:37 INFO  TC_Coursera:61 - Language: Spanish
+(2,487)
+2025-11-26 15:12:37 INFO  TC_Coursera:61 - Language: French
+(1,648)
+2025-11-26 15:12:37 INFO  TC_Coursera:61 - Language: Portuguese
+(1,641)
+2025-11-26 15:12:37 INFO  TC_Coursera:61 - Language: Arabic
+(1,604)
+2025-11-26 15:12:37 INFO  TC_Coursera:61 - Language: German
+(1,546)
+2025-11-26 15:12:37 INFO  TC_Coursera:61 - Language: Indonesian
+(1,503)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Chinese
+(1,458)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Russian
+(1,407)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Japanese
+(1,404)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Korean
+(1,378)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Hindi
+(1,361)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Turkish
+(1,341)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Ukrainian
+(1,324)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Italian
+(1,321)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Thai
+(1,320)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Greek
+(1,299)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Polish
+(1,298)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Dutch
+(1,291)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Swedish
+(1,272)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Kazakh
+(1,224)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Vietnamese
+(1,094)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Pushto
+(793)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Hungarian
+(787)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Azerbaijani
+(733)
+2025-11-26 15:12:38 INFO  TC_Coursera:61 - Language: Urdu
+(729)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Bengali
+(728)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Uzbek
+(504)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Oriya
+(158)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Romanian
+(25)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Persian
+(19)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Javanese
+(14)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Hebrew
+(12)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Serbian
+(9)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Catalan
+(6)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Tamil
+(6)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Afrikaans
+(5)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Estonian
+(5)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Telugu
+(4)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Croatian
+(3)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Mongolian
+(3)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Slovak
+(3)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Czech
+(2)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Georgian
+(2)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Marathi
+(2)
+2025-11-26 15:12:39 INFO  TC_Coursera:61 - Language: Albanian
+(1)
+2025-11-26 15:12:40 INFO  TC_Coursera:61 - Language: Bulgarian
+(1)
+2025-11-26 15:12:40 INFO  TC_Coursera:61 - Language: Danish
+(1)
+2025-11-26 15:12:40 INFO  TC_Coursera:61 - Language: Lithuanian
+(1)
+2025-11-26 15:12:40 INFO  TC_Coursera:61 - Language: Nepali
+(1)
+2025-11-26 15:12:40 INFO  TC_Coursera:61 - Language: Tagalog
+(1)
+2025-11-26 15:12:41 INFO  TC_Coursera:74 - Course 1
+2025-11-26 15:12:41 INFO  TC_Coursera:75 - Name: Introduction to HTML, CSS, & JavaScript
+2025-11-26 15:12:41 INFO  TC_Coursera:76 - Rating: 4.4
+2025-11-26 15:12:41 INFO  TC_Coursera:77 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:12:41 INFO  TC_Coursera:74 - Course 2
+2025-11-26 15:12:41 INFO  TC_Coursera:75 - Name: Introduction to Front-End Development
+2025-11-26 15:12:41 INFO  TC_Coursera:76 - Rating: 4.8
+2025-11-26 15:12:41 INFO  TC_Coursera:77 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:12:41 INFO  TC_Coursera:85 - Navigating to For Campus...
+2025-11-26 15:12:49 INFO  TC_Coursera:97 - Filling form with invalid email...
+2025-11-26 15:12:56 INFO  TC_Coursera:107 - Captured Error Message: Please enter your work email address
+2025-11-26 15:32:59 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2445083\eclipse-workspace\Identify_Courses\master.xml
+
+2025-11-26 15:33:00 INFO  WebDriverManager:1268 - Using chromedriver 141.0.7390.122 (resolved driver for Chrome 141)
+2025-11-26 15:33:00 INFO  WebDriverManager:1331 - Exporting webdriver.chrome.driver as C:\Users\2445083\.cache\selenium\chromedriver\win64\141.0.7390.122\chromedriver.exe
+2025-11-26 15:33:08 INFO  TC_Coursera:27 - Searching for Web Development courses...
+2025-11-26 15:33:14 INFO  TC_Coursera:31 - Applying Beginner level filter...
+2025-11-26 15:33:14 INFO  TC_Coursera:38 - Levels count: 4
+2025-11-26 15:33:14 INFO  TC_Coursera:44 - Level: Beginner
+(4,983)
+2025-11-26 15:33:14 INFO  TC_Coursera:44 - Level: Intermediate
+(3,196)
+2025-11-26 15:33:14 INFO  TC_Coursera:44 - Level: Advanced
+(334)
+2025-11-26 15:33:15 INFO  TC_Coursera:44 - Level: Mixed
+(856)
+2025-11-26 15:33:15 INFO  TC_Coursera:53 - Applying English language filter...
+2025-11-26 15:33:17 INFO  TC_Coursera:60 - Languages count: 51
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: English
+(4,164)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Spanish
+(2,487)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: French
+(1,648)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Portuguese
+(1,641)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Arabic
+(1,604)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: German
+(1,546)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Indonesian
+(1,503)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Chinese
+(1,458)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Russian
+(1,407)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Japanese
+(1,404)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Korean
+(1,378)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Hindi
+(1,361)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Turkish
+(1,341)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Ukrainian
+(1,324)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Italian
+(1,321)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Thai
+(1,320)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Greek
+(1,299)
+2025-11-26 15:33:18 INFO  TC_Coursera:66 - Language: Polish
+(1,298)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Dutch
+(1,291)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Swedish
+(1,272)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Kazakh
+(1,224)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Vietnamese
+(1,094)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Pushto
+(793)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Hungarian
+(787)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Azerbaijani
+(733)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Urdu
+(729)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Bengali
+(728)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Uzbek
+(504)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Oriya
+(158)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Romanian
+(25)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Persian
+(19)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Javanese
+(14)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Hebrew
+(12)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Serbian
+(9)
+2025-11-26 15:33:19 INFO  TC_Coursera:66 - Language: Catalan
+(6)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Tamil
+(6)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Afrikaans
+(5)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Estonian
+(5)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Telugu
+(4)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Croatian
+(3)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Mongolian
+(3)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Slovak
+(3)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Czech
+(2)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Georgian
+(2)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Marathi
+(2)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Albanian
+(1)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Bulgarian
+(1)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Danish
+(1)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Lithuanian
+(1)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Nepali
+(1)
+2025-11-26 15:33:20 INFO  TC_Coursera:66 - Language: Tagalog
+(1)
+2025-11-26 15:33:23 INFO  TC_Coursera:79 - Course 1
+2025-11-26 15:33:23 INFO  TC_Coursera:80 - Name: Introduction to HTML, CSS, & JavaScript
+2025-11-26 15:33:23 INFO  TC_Coursera:81 - Rating: 4.4
+2025-11-26 15:33:23 INFO  TC_Coursera:82 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:33:23 INFO  TC_Coursera:79 - Course 2
+2025-11-26 15:33:23 INFO  TC_Coursera:80 - Name: Introduction to Front-End Development
+2025-11-26 15:33:23 INFO  TC_Coursera:81 - Rating: 4.8
+2025-11-26 15:33:23 INFO  TC_Coursera:82 - Duration: Beginner · Course · 1 - 4 Weeks
+2025-11-26 15:33:23 INFO  TC_Coursera:90 - Navigating to For Campus...
+2025-11-26 15:33:31 INFO  TC_Coursera:102 - Filling form with invalid email...
+2025-11-26 15:33:40 INFO  TC_Coursera:113 - Captured Error Message: Please enter your work email address

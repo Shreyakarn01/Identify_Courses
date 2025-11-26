@@ -34,8 +34,10 @@ public class TC_Coursera extends BaseClass {
 
 			WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 			List<WebElement> levels = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[contains(@class,'cds-formGroup-groupWrapper')]//div[@class='css-ksf52d']")));
+			Assert.assertTrue(levels.size()>0,"Different levels not extracted");
 			logger.info("Levels count: " + levels.size());
 			test.log(Status.PASS,"Total levels counted = "+levels.size());
+			
 			
 			System.out.println("Levels count: " + levels.size());
 			for (WebElement lvl : levels) {
@@ -54,8 +56,11 @@ public class TC_Coursera extends BaseClass {
 			
 			
 			List<WebElement> languages = wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[contains(@class,'cds-formGroup-groupWrapper')]//div[@class='css-ksf52d']")));
+			Assert.assertTrue(languages.size()>0,"Different languages not extracted");
 			logger.info("Languages count: " + languages.size());
 			test.log(Status.PASS,"Total languages counted = "+languages.size());
+			
+			
 			System.out.println("Languages count: " + languages.size());
 			for (WebElement lang : languages) {
 				logger.info("Language: " + lang.getText());
@@ -68,7 +73,7 @@ public class TC_Coursera extends BaseClass {
 			
 
 			String[][] courses = homePage.getFirstTwoCourses();
-			
+			Assert.assertTrue(courses.length==2,"First 2 courses are not extracted");
 
 			for (int i = 0; i < courses.length; i++) {
 				logger.info("Course " + (i + 1));
@@ -80,7 +85,7 @@ public class TC_Coursera extends BaseClass {
 				System.out.println("Rating: " + courses[i][1]);
 				System.out.println("Duration: " + courses[i][2]);
 			}
-			
+			test.log(Status.PASS,"First 2 courses name,rating and duration extracted");
 			
 			logger.info("Navigating to For Campus...");
 			test.log(Status.INFO,"Navigating to For Campus...");
@@ -95,6 +100,7 @@ public class TC_Coursera extends BaseClass {
             test.log(Status.PASS, "Successfully navigated to Coursera for Campus page");
             
             logger.info("Filling form with invalid email...");
+            test.log(Status.INFO, "Filling form with invalid email...");
             ExcelUtility eu = new ExcelUtility();
             String[][] data = eu.getInputValues();
             

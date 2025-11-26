@@ -21,7 +21,7 @@ public class ExcelUtility {
 		workbook = new XSSFWorkbook(file);
 		sheet = workbook.getSheetAt(0); 
 		
-		return sheet.getLastRowNum(); //1-based indexing
+		return sheet.getLastRowNum(); //0-based indexing
 	}
 	
 	public int getCols() throws IOException {
@@ -30,7 +30,7 @@ public class ExcelUtility {
 		sheet = workbook.getSheetAt(0); 
 		
 		row = sheet.getRow(1);
-		int cols = row.getLastCellNum(); //0-based indexing
+		int cols = row.getLastCellNum(); //1-based indexing
 		
 		return cols;
 	}

@@ -26,9 +26,6 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//div[text()='Language']")
 	public WebElement languageFilter;
 
-	@FindBy(xpath = "(//input[contains(@class,'cds')])[2]")
-	private WebElement englishChk;
-
 	@FindBy(xpath = "//span[text()='View']")
 	public WebElement viewBtn;
 
@@ -81,6 +78,7 @@ public class HomePage extends BasePage {
 	public void selectEnglishLanguage() {
 //		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //	    wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//input[contains(@class,'cds')])[2]"))).click();
+		WebElement englishChk = driver.findElement(By.xpath("(//input[contains(@class,'cds')])[2]"));
 		englishChk.click();
 	}
 	
