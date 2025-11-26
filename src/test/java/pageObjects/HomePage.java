@@ -16,24 +16,12 @@ public class HomePage extends BasePage {
 
 	@FindBy(id = "search-autocomplete-input")
 	private WebElement searchBar;
-
-//	@FindBy(xpath = "(//div[@class='css-16tmax3'])[12]")
-//	public WebElement levelFilter1;
-//	
-//	@FindBy(xpath = "(//div[@class='css-16tmax3'])[6]")
-//	public WebElement levelFilter2;
 	
 	@FindBy(xpath = "//div[text()='Level']")
 	public WebElement levelFilter;
 
 	@FindBy(xpath = "(//input[@class='cds-215'])[1]")
 	private WebElement beginnerChk;
-
-//	@FindBy(xpath = "(//div[@class='css-16tmax3'])[11]")
-//	public WebElement languageFilter1;
-//	
-//	@FindBy(xpath = "(//div[@class='css-16tmax3'])[5]")
-//	public WebElement languageFilter2;
 	
 	@FindBy(xpath = "//div[text()='Language']")
 	public WebElement languageFilter;
@@ -86,15 +74,13 @@ public class HomePage extends BasePage {
 	
 	
 	public void languageClick() {
-//        List<WebElement> lt = driver.findElements(By.xpath("//div[@class='css-16tmax3']"));
-//		
-//		if(lt.size()==12) languageFilter1.click();
-//		else languageFilter2.click();
 		languageFilter.click();
 	}
 	
 
 	public void selectEnglishLanguage() {
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//	    wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//input[contains(@class,'cds')])[2]"))).click();
 		englishChk.click();
 	}
 	
