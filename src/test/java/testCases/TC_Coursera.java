@@ -91,7 +91,7 @@ public class TC_Coursera extends BaseClass {
             
             String heading = campusPage.getHeading();
             test.log(Status.INFO, "Captured heading: " + heading);
-            Assert.assertEquals(heading, "Coursera for Campu","User is not on the campus page");
+            Assert.assertEquals(heading, "Coursera for Campus","User is not on the campus page");
             test.log(Status.PASS, "Successfully navigated to Coursera for Campus page");
             
             logger.info("Filling form with invalid email...");
