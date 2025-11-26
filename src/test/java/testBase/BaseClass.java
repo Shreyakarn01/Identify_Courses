@@ -25,6 +25,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import com.aventstack.extentreports.ExtentTest;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
@@ -34,7 +36,7 @@ public class BaseClass {
 	public static WebDriver driver; //we made WebDriver static here b'coz in the ExtentReportManager class when test fails i.e. in the onTestFailure() method we are capturing ss using the function captureScreen() method in BaseClass, hence we are creating an object of the BaseClass in that class to call captureScreen() method, so a new driver will get created and this configured driver will not be used and conflict happens, so making it static so that it belongs to all the objects.
 	protected Properties prop;
 	public Logger logger; //import the package -->  import org.apache.logging.log4j.Logger;
-	
+	public static ExtentTest test;
 	
 	@BeforeMethod
 	@Parameters({"os","browser"}) //if we are getting parameters from the xml file, then the execution depends on the xml file, so we have to now run code from xml file only, we cannot run from here directly

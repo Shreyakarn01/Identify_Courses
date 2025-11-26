@@ -19,11 +19,11 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import testBase.BaseClass;
 
-public class ExtentReportManager implements ITestListener{
+public class ExtentReportManager extends BaseClass implements ITestListener{
 
 	public ExtentSparkReporter sparkReporter;
 	public ExtentReports extent;
-	public ExtentTest test;
+//	public ExtentTest test;
 
 	String repName;
 
@@ -33,7 +33,6 @@ public class ExtentReportManager implements ITestListener{
 		Date dt=new Date();
 		String currentdatetimestamp=df.format(dt);
 		*/
-		
 		
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
 		repName = "Test-Report-" + timeStamp + ".html";
@@ -63,17 +62,24 @@ public class ExtentReportManager implements ITestListener{
 		extent.setSystemInfo("Groups", includedGroups.toString());
 		}
 	}
+	
+
+    public void onTestStart(ITestResult result) {
+       test = extent.createTest(result.getMethod().getMethodName());
+       test.assignCategory(result.getMethod().getGroups());
+    }
+
 
 	public void onTestSuccess(ITestResult result) {
 	
-		test = extent.createTest(result.getTestClass().getName()); //getting the class name of the executed test case and creating a new entry in report
+//		test = extent.createTest(result.getTestClass().getName()); //getting the class name of the executed test case and creating a new entry in report
 		test.assignCategory(result.getMethod().getGroups()); // to display groups in report
 		test.log(Status.PASS,result.getName()+" got successfully executed"); //result.getName() returns the class name
 		
 	}
 
 	public void onTestFailure(ITestResult result) { //this method will automatically get triggered if any test case fails
-		test = extent.createTest(result.getTestClass().getName());
+//		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
 		
 		test.log(Status.FAIL,result.getName()+" got failed");
@@ -102,7 +108,7 @@ public class ExtentReportManager implements ITestListener{
 		
 		
 		//the below piece of code is added to automatically open the reports as soon as the test cases are executed eliminating the need to manually go to the folder and open the reports file
-		String pathOfExtentReport = System.getProperty("user.dir")+"\\reports\\"+repName;
+		String pathOfExtentReport = System.getProperty("user.dir")+"//reports//"+repName;
 		File extentReport = new File(pathOfExtentReport);
 		
 		try {
